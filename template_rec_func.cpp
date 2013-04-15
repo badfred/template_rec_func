@@ -538,8 +538,6 @@ const unsigned sqrt<x1>::value = mu1<f2>::func<x1>::value;
 int main() {
   std::cout << "2^20    = " << power<2, 20>::value << std::endl;
 
-  std::cout << minus<minus<plus<0>::value>::value>::value << std::endl;
-  
   std::cout << "22 + 11 = " << pr1<U1_1, subs3_1<S, U3_3>::func>::func<22, 11>::value << std::endl;
 
   std::cout << "12 *  7 = " << pr1<C1<0>::func, subs3_2<add, U3_3, U3_1>::func>::func<12, 6>::value << std::endl;
